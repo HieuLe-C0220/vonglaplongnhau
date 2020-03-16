@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let ochuabang = "<table border='1' cellpadding='4' cellspacing='2'>";
+    for (i=1;i<=9;i++) {
+        ochuabang = ochuabang + "<tr>";
+        for (j=2;j<=9;j++){
+            ochuabang = ochuabang +"<td>" + j + "x" +i+"="+i*j + "</td>";
+        }
+        ochuabang = ochuabang + "</tr>";
+    }
+    ochuabang = ochuabang + "</table>";
+    document.write(ochuabang);
+</script>    
+</body>
+</html>
